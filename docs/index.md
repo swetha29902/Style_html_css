@@ -1,37 +1,85 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cricket Trivia</title>
+	<style type="text/css">
+	h4{
+	text-align: center;
+	background-color: purple;
+	font-size: large;
+    }
+    header{
+	background-color: purple;
+	padding: 10px;
 
-You can use the [editor on GitHub](https://github.com/swetha29902/Style_html_css/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+    }
+    ul{
+	list-style: none;
+    }
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    li{
+	display: inline;
+	margin-left: 50px;
 
-### Markdown
+    }
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+   li a {
+	color: black;
+	text-decoration: none;
+   }
 
-```markdown
-Syntax highlighted code block
+    li a:hover{
+	color: white;
+    }
 
-# Header 1
-## Header 2
-### Header 3
+    footer{
+	background-color: purple;
+	color: white;
+	padding: 50px;
 
-- Bulleted
-- List
+    }
 
-1. Numbered
-2. List
+   section p{
+	text-align: center;
+   }
 
-**Bold** and _Italic_ and `Code` text
+ </style>
+	
+</head>
+<body>
+<header>
+	
+		<ul>
+			<li>
+				<a href="#">Gameplay</a> 
+			</li>
+			<li>
+				<a href="#">Tournaments</a> 
+			</li>
+			<li>
+				<a href="#">Stats</a> 
+			</li>
+			<li>
+				<a href="#">Scores</a> 
+			</li>
+			<li>
+				<a href="#">More</a> 
+			</li>
+		</ul>
+	</nav>
+</header>
+<section>
+	
+	<h4 style="color: white;">My interest towards this game </h4>
+     
+    <p>Hi, my name is Smriti. <br>I am a cricket lover and my love for this started since I started watching while growing up.
+        I also learnt how to play, the procedures, etc...<br>
+        I am here starting a blog for this game. Hope you get a lot of informations about cricket.<br><br><br>
+        THANK YOU</p>
+</section>
+<footer>
+	<p>For Feedback or Queries:</p>
+</footer>
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/swetha29902/Style_html_css/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
